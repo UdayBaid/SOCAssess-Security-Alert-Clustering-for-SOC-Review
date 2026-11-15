@@ -1,0 +1,16 @@
+{
+  "algorithm": "MiniBatchKMeans",
+  "n_clusters": 3,
+  "random_state": 42,
+  "alerts": 637320,
+  "features": 433,
+  "inertia": 5302604.0,
+  "iterations": 1,
+  "minibatch_steps": 250,
+  "cluster_sizes": {
+    "0": 349154,
+    "1": 123716,
+    "2": 164450
+  },
+  "training_seconds": 5.29
+}

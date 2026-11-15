@@ -1,0 +1,47 @@
+[
+  {
+    "eps": 0.03,
+    "min_samples": 5,
+    "mean_neighbors": 8.3252,
+    "median_neighbors": 5.0,
+    "core_point_candidates": 2549,
+    "non_core_candidates": 2451,
+    "execution_seconds": 1.25
+  },
+  {
+    "eps": 0.08,
+    "min_samples": 5,
+    "mean_neighbors": 28.6804,
+    "median_neighbors": 14.0,
+    "core_point_candidates": 3708,
+    "non_core_candidates": 1292,
+    "execution_seconds": 1.04
+  },
+  {
+    "eps": 0.15,
+    "min_samples": 5,
+    "mean_neighbors": 75.744,
+    "median_neighbors": 41.0,
+    "core_point_candidates": 4481,
+    "non_core_candidates": 519,
+    "execution_seconds": 1.04
+  },
+  {
+    "eps": 0.2,
+    "min_samples": 5,
+    "mean_neighbors": 118.936,
+    "median_neighbors": 70.0,
+    "core_point_candidates": 4727,
+    "non_core_candidates": 273,
+    "execution_seconds": 0.99
+  },
+  {
+    "eps": 0.08,
+    "min_samples": 10,
+    "mean_neighbors": 28.6804,
+    "median_neighbors": 14.0,
+    "core_point_candidates": 3022,
+    "non_core_candidates": 1978,
+    "execution_seconds": 1.05
+  }
+]

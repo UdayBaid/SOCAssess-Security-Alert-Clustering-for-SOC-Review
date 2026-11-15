@@ -1,0 +1,38 @@
+[
+  {
+    "n_init": 3,
+    "inertia": 5302604.0,
+    "iterations": 1,
+    "minibatch_steps": 250,
+    "cluster_sizes": {
+      "0": 349154,
+      "1": 123716,
+      "2": 164450
+    },
+    "execution_seconds": 6.11
+  },
+  {
+    "n_init": 10,
+    "inertia": 5310183.0,
+    "iterations": 1,
+    "minibatch_steps": 38,
+    "cluster_sizes": {
+      "0": 124899,
+      "1": 211956,
+      "2": 300465
+    },
+    "execution_seconds": 1.13
+  },
+  {
+    "n_init": 20,
+    "inertia": 5316527.5,
+    "iterations": 1,
+    "minibatch_steps": 27,
+    "cluster_sizes": {
+      "0": 125454,
+      "1": 215165,
+      "2": 296701
+    },
+    "execution_seconds": 1.04
+  }
+]

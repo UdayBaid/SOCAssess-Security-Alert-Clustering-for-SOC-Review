@@ -1,0 +1,23 @@
+[
+  {
+    "n_init": 3,
+    "inertia": 5302604.0,
+    "silhouette_sample": 0.2353452891111374,
+    "baseline_ari": 1.0,
+    "execution_seconds": 6.81
+  },
+  {
+    "n_init": 10,
+    "inertia": 5310183.0,
+    "silhouette_sample": 0.20636078715324402,
+    "baseline_ari": 0.7611524891348884,
+    "execution_seconds": 2.35
+  },
+  {
+    "n_init": 20,
+    "inertia": 5316527.5,
+    "silhouette_sample": 0.20507943630218506,
+    "baseline_ari": 0.7431452165976172,
+    "execution_seconds": 2.48
+  }
+]

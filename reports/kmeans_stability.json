@@ -1,0 +1,38 @@
+[
+  {
+    "random_state": 7,
+    "adjusted_rand_index": 0.804819266066379,
+    "cluster_sizes": {
+      "0": 310406,
+      "1": 203058,
+      "2": 123856
+    },
+    "iterations": 1,
+    "minibatch_steps": 53,
+    "execution_seconds": 1.84
+  },
+  {
+    "random_state": 21,
+    "adjusted_rand_index": 0.4187399907735589,
+    "cluster_sizes": {
+      "0": 55130,
+      "1": 454794,
+      "2": 127396
+    },
+    "iterations": 1,
+    "minibatch_steps": 12,
+    "execution_seconds": 0.7
+  },
+  {
+    "random_state": 100,
+    "adjusted_rand_index": 0.8917256137115885,
+    "cluster_sizes": {
+      "0": 329091,
+      "1": 122621,
+      "2": 185608
+    },
+    "iterations": 1,
+    "minibatch_steps": 12,
+    "execution_seconds": 0.68
+  }
+]

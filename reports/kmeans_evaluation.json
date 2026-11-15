@@ -1,0 +1,50 @@
+[
+  {
+    "k": 3,
+    "inertia": 5413090.0,
+    "silhouette_sample": 0.23633627593517303,
+    "iterations": 100,
+    "cluster_sizes": {
+      "0": 352169,
+      "1": 121970,
+      "2": 163181
+    },
+    "execution_seconds": 66.7
+  },
+  {
+    "k": 4,
+    "inertia": 5413090.0,
+    "silhouette_sample": 0.23633627593517303,
+    "iterations": 100,
+    "cluster_sizes": {
+      "0": 352169,
+      "1": 121970,
+      "2": 163181
+    },
+    "execution_seconds": 55.04
+  },
+  {
+    "k": 5,
+    "inertia": 5413090.0,
+    "silhouette_sample": 0.23633627593517303,
+    "iterations": 100,
+    "cluster_sizes": {
+      "0": 352169,
+      "1": 121970,
+      "2": 163181
+    },
+    "execution_seconds": 53.1
+  },
+  {
+    "k": 6,
+    "inertia": 5413090.0,
+    "silhouette_sample": 0.23633627593517303,
+    "iterations": 100,
+    "cluster_sizes": {
+      "0": 352169,
+      "1": 121970,
+      "2": 163181
+    },
+    "execution_seconds": 62.29
+  }
+]

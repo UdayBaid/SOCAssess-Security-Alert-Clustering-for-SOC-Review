@@ -1,0 +1,528 @@
+{
+    "file_name": "GUIDE_Test.csv",
+    "file_size_mb": 1037.56,
+    "number_of_columns": 46,
+    "row_count": 4147992,
+    "columns": [
+        "Id",
+        "OrgId",
+        "IncidentId",
+        "AlertId",
+        "Timestamp",
+        "DetectorId",
+        "AlertTitle",
+        "Category",
+        "MitreTechniques",
+        "IncidentGrade",
+        "ActionGrouped",
+        "ActionGranular",
+        "EntityType",
+        "EvidenceRole",
+        "DeviceId",
+        "Sha256",
+        "IpAddress",
+        "Url",
+        "AccountSid",
+        "AccountUpn",
+        "AccountObjectId",
+        "AccountName",
+        "DeviceName",
+        "NetworkMessageId",
+        "EmailClusterId",
+        "RegistryKey",
+        "RegistryValueName",
+        "RegistryValueData",
+        "ApplicationId",
+        "ApplicationName",
+        "OAuthApplicationId",
+        "ThreatFamily",
+        "FileName",
+        "FolderPath",
+        "ResourceIdName",
+        "ResourceType",
+        "Roles",
+        "OSFamily",
+        "OSVersion",
+        "AntispamDirection",
+        "SuspicionLevel",
+        "LastVerdict",
+        "CountryCode",
+        "State",
+        "City",
+        "Usage"
+    ],
+    "preview_rows": [
+        [
+            "1245540519230",
+            "657",
+            "11767",
+            "87199",
+            "2024-06-04T22:56:27.000Z",
+            "524",
+            "563",
+            "LateralMovement",
+            "T1021;T1047;T1105;T1569.002",
+            "BenignPositive",
+            "",
+            "",
+            "User",
+            "Impacted",
+            "98799",
+            "138268",
+            "360606",
+            "160396",
+            "2610",
+            "3699",
+            "425863",
+            "863",
+            "153085",
+            "529644",
+            "",
+            "1631",
+            "635",
+            "860",
+            "2251",
+            "3421",
+            "881",
+            "",
+            "289573",
+            "117668",
+            "3586",
+            "",
+            "",
+            "5",
+            "66",
+            "",
+            "Suspicious",
+            "Suspicious",
+            "242",
+            "1445",
+            "10630",
+            "Private"
+        ],
+        [
+            "1400159342154",
+            "3",
+            "91158",
+            "632273",
+            "2024-06-03T12:58:26.000Z",
+            "2",
+            "2",
+            "CommandAndControl",
+            "",
+            "BenignPositive",
+            "",
+            "",
+            "Machine",
+            "Impacted",
+            "1239",
+            "138268",
+            "360606",
+            "160396",
+            "441377",
+            "673934",
+            "425863",
+            "453297",
+            "2833",
+            "529644",
+            "",
+            "1631",
+            "635",
+            "860",
+            "2251",
+            "3421",
+            "881",
+            "",
+            "289573",
+            "117668",
+            "3586",
+            "",
+            "",
+            "0",
+            "0",
+            "",
+            "Suspicious",
+            "Suspicious",
+            "242",
+            "1445",
+            "10630",
+            "Public"
+        ],
+        [
+            "1279900255923",
+            "145",
+            "32247",
+            "131719",
+            "2024-06-08T03:20:49.000Z",
+            "2932",
+            "10807",
+            "LateralMovement",
+            "T1021;T1027.002;T1027.005;T1105",
+            "BenignPositive",
+            "",
+            "",
+            "Process",
+            "Related",
+            "98799",
+            "4296",
+            "360606",
+            "160396",
+            "441377",
+            "673934",
+            "425863",
+            "453297",
+            "153085",
+            "529644",
+            "",
+            "1631",
+            "635",
+            "860",
+            "2251",
+            "3421",
+            "881",
+            "",
+            "14",
+            "22",
+            "3586",
+            "",
+            "",
+            "5",
+            "66",
+            "",
+            "Suspicious",
+            "Suspicious",
+            "242",
+            "1445",
+            "10630",
+            "Public"
+        ],
+        [
+            "60129547292",
+            "222",
+            "15294",
+            "917686",
+            "2024-06-12T12:07:31.000Z",
+            "0",
+            "0",
+            "InitialAccess",
+            "T1078;T1078.004",
+            "FalsePositive",
+            "",
+            "",
+            "CloudLogonSession",
+            "Related",
+            "98799",
+            "138268",
+            "360606",
+            "160396",
+            "441377",
+            "673934",
+            "425863",
+            "453297",
+            "153085",
+            "529644",
+            "",
+            "1631",
+            "635",
+            "860",
+            "2251",
+            "3421",
+            "881",
+            "",
+            "289573",
+            "117668",
+            "3586",
+            "",
+            "",
+            "5",
+            "66",
+            "",
+            "",
+            "",
+            "242",
+            "1445",
+            "10630",
+            "Public"
+        ],
+        [
+            "515396080539",
+            "363",
+            "7615",
+            "5944",
+            "2024-06-06T17:42:05.000Z",
+            "27",
+            "18",
+            "Discovery",
+            "T1087;T1087.002",
+            "BenignPositive",
+            "",
+            "",
+            "User",
+            "Impacted",
+            "98799",
+            "138268",
+            "360606",
+            "160396",
+            "133549",
+            "673934",
+            "425863",
+            "136104",
+            "153085",
+            "529644",
+            "",
+            "1631",
+            "635",
+            "860",
+            "2251",
+            "3421",
+            "881",
+            "",
+            "289573",
+            "117668",
+            "3586",
+            "",
+            "Suspicious",
+            "5",
+            "66",
+            "",
+            "",
+            "",
+            "242",
+            "1445",
+            "10630",
+            "Public"
+        ]
+    ],
+    "schema": [
+        {
+            "column_name": "Id",
+            "column_type": "BIGINT",
+            "null": "YES"
+        },
+        {
+            "column_name": "OrgId",
+            "column_type": "BIGINT",
+            "null": "YES"
+        },
+        {
+            "column_name": "IncidentId",
+            "column_type": "BIGINT",
+            "null": "YES"
+        },
+        {
+            "column_name": "AlertId",
+            "column_type": "BIGINT",
+            "null": "YES"
+        },
+        {
+            "column_name": "Timestamp",
+            "column_type": "TIMESTAMP WITH TIME ZONE",
+            "null": "YES"
+        },
+        {
+            "column_name": "DetectorId",
+            "column_type": "BIGINT",
+            "null": "YES"
+        },
+        {
+            "column_name": "AlertTitle",
+            "column_type": "BIGINT",
+            "null": "YES"
+        },
+        {
+            "column_name": "Category",
+            "column_type": "VARCHAR",
+            "null": "YES"
+        },
+        {
+            "column_name": "MitreTechniques",
+            "column_type": "VARCHAR",
+            "null": "YES"
+        },
+        {
+            "column_name": "IncidentGrade",
+            "column_type": "VARCHAR",
+            "null": "YES"
+        },
+        {
+            "column_name": "ActionGrouped",
+            "column_type": "VARCHAR",
+            "null": "YES"
+        },
+        {
+            "column_name": "ActionGranular",
+            "column_type": "VARCHAR",
+            "null": "YES"
+        },
+        {
+            "column_name": "EntityType",
+            "column_type": "VARCHAR",
+            "null": "YES"
+        },
+        {
+            "column_name": "EvidenceRole",
+            "column_type": "VARCHAR",
+            "null": "YES"
+        },
+        {
+            "column_name": "DeviceId",
+            "column_type": "BIGINT",
+            "null": "YES"
+        },
+        {
+            "column_name": "Sha256",
+            "column_type": "BIGINT",
+            "null": "YES"
+        },
+        {
+            "column_name": "IpAddress",
+            "column_type": "BIGINT",
+            "null": "YES"
+        },
+        {
+            "column_name": "Url",
+            "column_type": "BIGINT",
+            "null": "YES"
+        },
+        {
+            "column_name": "AccountSid",
+            "column_type": "BIGINT",
+            "null": "YES"
+        },
+        {
+            "column_name": "AccountUpn",
+            "column_type": "BIGINT",
+            "null": "YES"
+        },
+        {
+            "column_name": "AccountObjectId",
+            "column_type": "BIGINT",
+            "null": "YES"
+        },
+        {
+            "column_name": "AccountName",
+            "column_type": "BIGINT",
+            "null": "YES"
+        },
+        {
+            "column_name": "DeviceName",
+            "column_type": "BIGINT",
+            "null": "YES"
+        },
+        {
+            "column_name": "NetworkMessageId",
+            "column_type": "BIGINT",
+            "null": "YES"
+        },
+        {
+            "column_name": "EmailClusterId",
+            "column_type": "DOUBLE",
+            "null": "YES"
+        },
+        {
+            "column_name": "RegistryKey",
+            "column_type": "BIGINT",
+            "null": "YES"
+        },
+        {
+            "column_name": "RegistryValueName",
+            "column_type": "BIGINT",
+            "null": "YES"
+        },
+        {
+            "column_name": "RegistryValueData",
+            "column_type": "BIGINT",
+            "null": "YES"
+        },
+        {
+            "column_name": "ApplicationId",
+            "column_type": "BIGINT",
+            "null": "YES"
+        },
+        {
+            "column_name": "ApplicationName",
+            "column_type": "BIGINT",
+            "null": "YES"
+        },
+        {
+            "column_name": "OAuthApplicationId",
+            "column_type": "BIGINT",
+            "null": "YES"
+        },
+        {
+            "column_name": "ThreatFamily",
+            "column_type": "VARCHAR",
+            "null": "YES"
+        },
+        {
+            "column_name": "FileName",
+            "column_type": "BIGINT",
+            "null": "YES"
+        },
+        {
+            "column_name": "FolderPath",
+            "column_type": "BIGINT",
+            "null": "YES"
+        },
+        {
+            "column_name": "ResourceIdName",
+            "column_type": "BIGINT",
+            "null": "YES"
+        },
+        {
+            "column_name": "ResourceType",
+            "column_type": "VARCHAR",
+            "null": "YES"
+        },
+        {
+            "column_name": "Roles",
+            "column_type": "VARCHAR",
+            "null": "YES"
+        },
+        {
+            "column_name": "OSFamily",
+            "column_type": "BIGINT",
+            "null": "YES"
+        },
+        {
+            "column_name": "OSVersion",
+            "column_type": "BIGINT",
+            "null": "YES"
+        },
+        {
+            "column_name": "AntispamDirection",
+            "column_type": "VARCHAR",
+            "null": "YES"
+        },
+        {
+            "column_name": "SuspicionLevel",
+            "column_type": "VARCHAR",
+            "null": "YES"
+        },
+        {
+            "column_name": "LastVerdict",
+            "column_type": "VARCHAR",
+            "null": "YES"
+        },
+        {
+            "column_name": "CountryCode",
+            "column_type": "BIGINT",
+            "null": "YES"
+        },
+        {
+            "column_name": "State",
+            "column_type": "BIGINT",
+            "null": "YES"
+        },
+        {
+            "column_name": "City",
+            "column_type": "BIGINT",
+            "null": "YES"
+        },
+        {
+            "column_name": "Usage",
+            "column_type": "VARCHAR",
+            "null": "YES"
+        }
+    ]
+}
