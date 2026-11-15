@@ -1,0 +1,9 @@
+{
+    "total_alerts": 637320,
+    "features_used": 428,
+    "anomalies": 236,
+    "normal_alerts": 637084,
+    "anomaly_percentage": 0.04,
+    "mean_anomaly_score": 0.17218568309594898,
+    "execution_seconds": 53.74
+}
