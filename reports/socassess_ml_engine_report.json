@@ -1,0 +1,31 @@
+{
+    "project": "SOCAssess",
+    "module": "Unified ML Engine",
+    "total_alerts": 637320,
+    "kmeans_mapped_alerts": 637320,
+    "dbscan_mapped_alerts": 20000,
+    "isolation_forest_anomalies": 236,
+    "temporal_event_alerts": 637320,
+    "high_attention_alerts": 0,
+    "dbscan_noise_alerts": 987,
+    "priority_distribution": {
+        "Low": 626834,
+        "Medium": 10250,
+        "High": 236
+    },
+    "priority_score_method": {
+        "isolation_forest_anomaly": 40,
+        "high_attention_temporal_event": 25,
+        "temporal_alert_burst": 15,
+        "dbscan_noise": 10,
+        "high_evidence_volume": 10
+    },
+    "important_limitations": [
+        "Priority score is a heuristic decision-support score, not attack probability.",
+        "Isolation Forest anomalies are not confirmed attacks.",
+        "DBSCAN assignments cover only the evaluated 20,000-alert sample.",
+        "KMeans and DBSCAN clusters are exploratory groupings, not ground-truth labels.",
+        "High-priority alerts require human SOC analyst investigation."
+    ],
+    "execution_seconds": 18.13
+}

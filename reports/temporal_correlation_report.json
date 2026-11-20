@@ -1,0 +1,13 @@
+{
+    "total_alerts": 637320,
+    "total_events": 249083,
+    "multi_alert_events": 58908,
+    "burst_events": 13112,
+    "anomaly_linked_events": 134,
+    "high_attention_events": 28,
+    "total_anomalous_alerts": 236,
+    "max_gap_minutes": 5,
+    "max_event_duration_minutes": 60,
+    "largest_event_alert_count": 823,
+    "execution_seconds": 250.71
+}
